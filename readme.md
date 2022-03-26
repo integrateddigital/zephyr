@@ -10,7 +10,7 @@ You must have NPM installed on your machine in order to install this package, as
 
 ## Installation
 
-This package as designed to be used with new Laravel projects.
+This package was designed to be used with new Laravel projects.
 
 First, create a new Laravel project via Composer/Docker/whatever you prefer:
 
