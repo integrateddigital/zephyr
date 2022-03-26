@@ -1,0 +1,25 @@
+{
+    "name": "legodion/zephyr",
+    "description": "A Laravel starter kit with auth scaffolding using Livewire & Bootstrap.",
+    "keywords": ["php", "laravel", "starter kit", "ui", "auth", "scaffolding", "livewire", "bootstrap"],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "^7.0|^8.0|^9.0",
+        "legodion/convoy": "^1.0",
+        "legodion/lucid": "^1.0",
+        "livewire/livewire": "^2.0",
+        "lukeraymonddowning/honey": "^0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Legodion\\Zephyr\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Legodion\\Zephyr\\Providers\\ZephyrServiceProvider"
+            ]
+        }
+    }
+}
